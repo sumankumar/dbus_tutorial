@@ -1,0 +1,28 @@
+
+
+This tutorial program works on desktop PC.
+(
+prerequisite:
+1.qdbus command should be working in your pc
+check this link :
+http://foss-boss.blogspot.com/2008/11/ride-d-bus-control-your-linux-desktop.html
+)
+
+Procedure:
+
+1.First we need to place the xml file in /usr/share/dbus-1/interfaces directory.
+
+2.Place the audio file path in SayBye() function in demo.cpp file
+
+3.then run the program from qt creator.. the program will be in waiting state.
+
+4.open a terminal an type:(try tabbing)
+
+#qdbus com.nokia.Demo / com.nokia.Demo.SayBye
+
+then we can listen the audio file .
+
+
+
+
+
